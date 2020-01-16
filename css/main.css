@@ -113,7 +113,8 @@ body {
 #wrapper {
   background:url(../img/chalkboard-background.jpg);
   width:100%;
-  height:850px;
+  max-width:375px;
+  height:812px;
   margin:auto;
   text-align:center;
   overflow:auto;
