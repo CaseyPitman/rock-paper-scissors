@@ -11,6 +11,12 @@
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
 
+  <!--Google Fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Schoolbell&display=swap" rel="stylesheet">
+
+  <!--Font Awesome-->
+  <script src="https://kit.fontawesome.com/b0cd4101cb.js" crossorigin="anonymous"></script>
+
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
 
@@ -18,14 +24,21 @@
 </head>
 
 <body>
-  <h1> Let's play Rock, Paper, Scissors.</h1>
-  <div id="form-wrapper">
-    <form id="rock-paper-scissors">
+  <div id="wrapper">
+    <h1> Let's play<br> Rock, Paper, Scissors.</h1>
+    <h2 id="rps-icons">
+      <i class="far fa-hand-rock"></i>&nbsp;
+      <i class="far fa-hand-paper"></i>&nbsp;
+      <i class="far fa-hand-scissors"></i>
+     </h2>
+    <form id="rps-form">
       <select id="user-selection" name="user-selection">
-        <option value="selected" selected>Choose wisely</option>
-        <option value="rock">Rock</option>
-        <option value="paper">Paper</option>
-        <option value="scissors">Scissors</option>
+        <optgroup id="rps-optgroup">
+          <option value="selected" selected>Choose wisely</option>
+          <option value="rock">Rock</option>
+          <option value="paper">Paper</option>
+          <option value="scissors">Scissors</option>
+        </optgroup>
       </select>
       <button id="play">One...two...three...shoot!</button>
     </form>
