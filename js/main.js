@@ -49,7 +49,7 @@ $(document).ready(function() {//jQuery
       }//ends user selects paper
       
       else { //user selects scissors
-        if (computerSelection === "scissors"){
+        if (computerSelection === "paper"){
           result = "Scissors cuts paper. You win!";
         }
         else if (computerSelection === "rock"){
@@ -60,7 +60,7 @@ $(document).ready(function() {//jQuery
         }
       }
       //diplays results
-      result = "You chose " + userSelection + ". " + "Computer chose " + computerSelection +". " + result;
+      result = "You chose " + userSelection + ". " + "Computer chose " + computerSelection + ". " + result;
       alert(result);
       
     };//ends compare function
