@@ -113,7 +113,8 @@ body {
 #wrapper {
   background:url(../img/chalkboard-background.jpg);
   width:100%;
-  height:850px;
+  max-width:375px;
+  height:812px;
   margin:auto;
   text-align:center;
   overflow:auto;
@@ -129,7 +130,7 @@ h1 {
 }
 
 #rps-form {
-margin:100px auto 100px;
+margin:100px auto 200px;
 }
 
 #user-selection{
@@ -151,6 +152,9 @@ margin:100px auto 100px;
   padding:10px;
 }
 
+#copyright {
+  font-size:1.6rem;
+}
 
 
 
