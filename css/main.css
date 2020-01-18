@@ -139,6 +139,7 @@ h2 {
   justify-content:space-evenly;
   align-items:center;
   width:100%;
+  max-width:375;
 }
 
 .buttons {
