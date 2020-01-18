@@ -37,7 +37,7 @@ $(document).ready(function() {//jQuery
       if (computerChoice === "scissors"){
         alert("You lose.\nYour opponent chose scissors. Scissors cuts paper.");
       }else if (computerChoice === "rock"){
-        alert("YOU WIN!\nYour opponent chose rock. Rock covers paper");
+        alert("YOU WIN!\nYour opponent chose rock. Paper covers rock.");
       }else{
         alert("It's a tie!\nYou both chose paper. Shoot again.");
       }
