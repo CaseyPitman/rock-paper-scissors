@@ -121,6 +121,11 @@ body {
   margin:auto;
   text-align:center;
   overflow:auto;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-flow:row wrap;
+
 }
 
 h1 {
@@ -132,6 +137,7 @@ h1 {
 h2 {
   font-size:2.5rem;
   margin:20px auto 50px;
+  width:90%;
 }
 
 #choose{
