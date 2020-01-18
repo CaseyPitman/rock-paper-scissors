@@ -107,13 +107,14 @@ html {
 
 body {
   background:whitesmoke;
-  max-width:375px;;
+  max-width:375px;
   margin:auto;
   height:100%;
 }
 
 #wrapper {
   background:url(../img/chalkboard-background.jpg);
+  background-size:contain;
   width:100%;
   max-width:375px;
   height:800px;
@@ -137,6 +138,7 @@ h2 {
   display:flex;
   justify-content:space-evenly;
   align-items:center;
+  width:100%;
 }
 
 .buttons {
@@ -144,6 +146,7 @@ h2 {
   border:none;
   color:rgb(245, 245, 245);
   font-size:7rem;
+  width:25%;
 }
 
 #copyright {
