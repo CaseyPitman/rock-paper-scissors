@@ -126,9 +126,7 @@ h2 {
 }
 
 #choose{
- display:flex;
- justify-content:space-around;
- align-items:center;
+ text-align:center;
 }
 
 .buttons {
@@ -136,6 +134,8 @@ h2 {
   border:none;
   color:rgb(245, 245, 245);
   font-size:7rem;
+  padding:10px;
+  margin:auto 10px;
 }
 
 #copyright {
