@@ -1,6 +1,4 @@
-//Rock paper scissors 2.0
-
-$(document).ready(function() {//jQuery
+//Rock paper scissors
 
   const choices = [
     "rock",
@@ -9,15 +7,14 @@ $(document).ready(function() {//jQuery
   ];
   
   //the computer makes a random choice
-  const computerMakesChoice = function(){
+  function computerMakesChoice (){
     let randomNumber = Math.floor(Math.random() * 3.0);
     let computerChoice = choices[randomNumber];
-    console.log(computerChoice);
     return computerChoice;
   }
   
   //user chooses rock
-  const chooseRock = function(){
+  function chooseRock (){
     let userChoice = choices[0];
     let computerChoice = computerMakesChoice();
       if (computerChoice === "paper"){
@@ -31,7 +28,7 @@ $(document).ready(function() {//jQuery
   };
   
   //user chooses paper
-  const choosePaper = function(){
+  function choosePaper (){
     let userChoice = choices[1];
     let computerChoice = computerMakesChoice();
       if (computerChoice === "scissors"){
@@ -45,7 +42,7 @@ $(document).ready(function() {//jQuery
   };
   
   //use chooses scissors
-  const chooseScissors = function(){
+  function chooseScissors(){
     let userChoice = choices[2];
     let computerChoice = computerMakesChoice();
       if(computerChoice === "rock"){
@@ -62,9 +59,4 @@ $(document).ready(function() {//jQuery
   $("#rock").click(chooseRock);
   $("#paper").click(choosePaper);
   $("#scissors").click(chooseScissors);
-  
-  });//ends jQuery
-  
-  
-  
   
